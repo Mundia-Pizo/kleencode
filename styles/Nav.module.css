@@ -1,0 +1,60 @@
+.nav_container{
+   
+    width: 100vw;
+    height: 100px;
+    color: white;
+    background-color:#333   
+
+}
+.nav_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav_container div{
+    width: 80%;
+    margin: auto;
+    padding-top: 6px;
+    color: white;
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-top:10px ;
+    width: 35vw;
+}
+.searchInput{
+    margin-left: 15PX;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 80%;
+    padding: 8px;
+    border-radius: 14px;
+}
+.logo_area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo_area h1{
+    margin-top: 10px;
+}
+.ul li{
+    font-size:16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:780){
+    .ul{
+        width: 50vw;
+    }
+    .ul li{
+        font-size: 18px;
+    }
+}
+    
+
+    

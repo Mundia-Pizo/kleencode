@@ -1,6 +1,74 @@
 .container {
   padding: 0 2rem;
 }
+.homeContainer{
+  width: 80vw;
+  margin: auto;
+  bottom: 0px;
+}
+.heroGrid{
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-bottom: 35px;
+}
+.course_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.course_grid div{
+  margin: 15px;
+  border-radius: 12px;
+}
+.course_grid div p{
+  padding: 16px;
+}
+.heroHeading{
+  font-weight: bolder;
+  font-size: 26px;
+}
+.mainGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mainGrid div {
+  margin: 10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+}
+.mainGrid div p{
+  padding: 20px;
+  font-size: 13.5px;
+}
+.postCard{
+  background-color: #eaeaea;
+}
+.postCard img{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.img_padding{
+  padding: 20px;
+}
+.objectives{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+.objectives div{
+  margin: 20px;
+  transition: 0.15s ease-in;
+  background-color: #eaeaea;
+  padding: 18px;
+  border-radius: 12px;
+}
+.lastest_posts h1{
+   font-size: 32px;
+   font-weight: bold;
+}
 
 .main {
   min-height: 100vh;

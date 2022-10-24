@@ -1,0 +1,29 @@
+.authSpace{
+    width: 35vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.main_auth_column{
+    display: flex;
+    flex-direction: column;
+
+}
+.main_auth_column button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: powderblue;
+    border-radius: 4px;
+}
+.main_auth_column input{
+    height: 35px;
+    border-radius: 8px;
+    padding: 8px;
+}
+.auth_questions{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.main_footer{
+    width: 60vw;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_footer_theme{
+    color: black;
+}
