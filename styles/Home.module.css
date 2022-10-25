@@ -39,6 +39,11 @@
   border-top-right-radius: 12px;
 
 }
+.rich_text{
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 .mainGrid div p{
   padding: 20px;
   font-size: 13.5px;
