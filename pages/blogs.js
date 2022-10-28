@@ -4,12 +4,11 @@ import Image from 'next/image'
 import ArticleCard from './components.js/articleCard'
 import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 import { useState, useEffect } from "react";
-import app from './config/firebase';
+import {db} from './config/firebase'
 
 const blogs = () => {
   const [isLoaded, setLoading] = useState(false)
   const [articles, setArticles] = useState([])
-  const db = getFirestore(app);
   async function getCities(db) {
   // Get a list of cities from your database
   const articleCollection = collection(db, 'Articles');
@@ -42,3 +41,7 @@ const blogs = () => {
 }
 
 export default blogs
+
+
+
+

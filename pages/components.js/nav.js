@@ -7,7 +7,7 @@ const nav = () => {
         <div className={navstyles.nav_container}>
             <div className={navstyles.nav_content}>
                     <div className={navstyles.logo_area}>
-                        <h1><Link href='/'>KleenCode</Link> </h1>
+                        <h1><Link href='/'>CloudKamp</Link> </h1>
                         <input placeholder='search...' className={ navstyles.searchInput} />
                     </div>
                 

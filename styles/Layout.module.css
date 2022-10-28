@@ -1,4 +1,11 @@
 .container{
-    width: 80%;
+    width: 90vw;
     margin: auto;
+}
+
+
+@media(max-with:768px) {
+    .container{
+        width: 95vw;
+    }
 }

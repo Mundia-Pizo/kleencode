@@ -3,8 +3,6 @@ import homeStyles from '../../styles/Home.module.css'
 import Image from 'next/image'
 
 const articleCard = () => {
-    
-
   return (
     <div  className={homeStyles.postCard}>
         <Image  src='/../static/images/hero_image.png' height={400} width={500} layout='responsive' />

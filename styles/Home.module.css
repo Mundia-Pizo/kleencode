@@ -2,7 +2,7 @@
   padding: 0 2rem;
 }
 .homeContainer{
-  width: 80vw;
+  width: 100%;
   margin: auto;
   bottom: 0px;
 }
@@ -199,4 +199,12 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+@media(max-width:768px){
+  .heroGrid, .course_grid, .mainGrid, .objectives {
+      grid-template-columns: 1fr;
+    }
+  
+    
 }
