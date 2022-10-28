@@ -6,10 +6,10 @@ import Navbar from './nav'
 const Layout = ({children}) => {
   return (
     <>
-      <Head>
+      {/* <Head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2110687080692693"
      crossorigin="anonymous"></script>
-      </Head>
+      </Head> */}
       <Navbar />
       <main className={layoutstyles.container}>  
         {children} 

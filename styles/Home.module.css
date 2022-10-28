@@ -26,8 +26,8 @@
   padding: 16px;
 }
 .heroHeading{
-  font-weight: bolder;
-  font-size: 26px;
+  font-weight:900;
+  font-size: 30px;
 }
 .mainGrid{
   display: grid;

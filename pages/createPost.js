@@ -9,6 +9,7 @@ import { useState } from "react";
 // import dynamic from 'next/dynamic';
 const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 import 'react-quill/dist/quill.snow.css';
+import AddBook from './components.js/addArticle';
 
 function createPost() {
     const [value, setValue] = useState('')
@@ -17,7 +18,8 @@ function createPost() {
       <ReactQuill
          theme='snow'
           placeholder={"Write something awesome..."}
-        />
+      />
+    <AddBook/>
     </div>
     
     )
